@@ -115,12 +115,14 @@ layout: default
         {% endcomment %}
 
         <!-- Summary -->
+        {% comment %}
         {% if cv.summary %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Professional Summary</h3>
             <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           </div>
         {% endif %}
+        {% endcomment %}
 
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
         {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
@@ -133,8 +135,7 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Experience</h3>
             <div>
-              {% assign entries = combined_experience %}
-              {% include cv/experience.liquid %}
+              {% include cv/experience.liquid entries=combined_experience %}
             </div>
           </div>
         {% endif %}
@@ -149,28 +150,27 @@ layout: default
             {% continue %}
           {% endif %}
 
+          {% comment %} Skip empty sections {% endcomment %}
+          {% if section_entries == blank or section_entries.size == 0 %}
+            {% continue %}
+          {% endif %}
+
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
               {% if section_title == 'Education' %}
-                {% assign entries = section_entries %}
-                {% include cv/education.liquid %}
+                {% include cv/education.liquid entries=section_entries %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
-                {% assign entries = section_entries %}
-                {% include cv/awards.liquid %}
+                {% include cv/awards.liquid entries=section_entries %}
               {% elsif section_title == 'Publications' %}
-                {% assign entries = section_entries %}
-                {% include cv/publications.liquid %}
+                {% include cv/publications.liquid entries=section_entries %}
               {% elsif section_title == 'Skills' %}
-                {% assign entries = section_entries %}
-                {% include cv/skills.liquid %}
+                {% include cv/skills.liquid entries=section_entries %}
               {% elsif section_title == 'Languages' %}
-                {% assign entries = section_entries %}
-                {% include cv/languages.liquid %}
+                {% include cv/languages.liquid entries=section_entries %}
               {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
-                {% assign entries = section_entries %}
-                {% include cv/interests.liquid %}
+                {% include cv/interests.liquid entries=section_entries %}
               {% elsif section_title == 'Certificates' %}
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}

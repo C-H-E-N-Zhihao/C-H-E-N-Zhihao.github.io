@@ -5,7 +5,7 @@
 {% endcomment %}
 
 <div class="card-text font-weight-light">
-  {% for entry in entries %}
+  {% for entry in include.entries %}
     <div class="language-item">
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
