@@ -12,7 +12,7 @@ profile:
     <p>📧 zhihaoc04@gmail.com</p>
     <p>📍 Barcelona, Spain</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # no publications yet
 social: true # includes social icons at the bottom of the page
 
 announcements:

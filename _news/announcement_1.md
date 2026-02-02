@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-02-01 09:00:00+0100
+date: 2025-09-20
 inline: true
 related_posts: false
 ---
 
-Started as **Research Fellow** at [LAMP - CVC - UAB](https://www.cvc.uab.es/), working on Unified Multi-Modal Continual Learning! 🎉
+Joined **BioRob Lab at EPFL** as a Visiting Research Student! 🎉 Excited to work on context-aware spatial action recognition for multi-robot systems.
