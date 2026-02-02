@@ -2,9 +2,7 @@ cv:
   name: Zhihao Chen
   label: BSc Artificial Intelligence — Research Aspirant
   email: zhihao.chen@estudiantat.upc.edu
-  location: Barcelona, Spain
-  phone: "+34 632 658 105"
-  summary: Final-year BSc student in Artificial Intelligence with hands-on research experience at EPFL BioRob and top AI labs. Research focuses on representation learning, multi-modal LLMs, and continual learning.
+
 
   social_networks:
     - network: GitHub
@@ -69,24 +67,7 @@ cv:
           - Designed complex multi-agent workflows through n8n, documenting emergent behaviors.
           - Built B2B products including pricing calculators, RAG chatbots, and report generators.
 
-    Awards:
-      - name: Overall Finalist, LauzHack 2025
-        date: 2025-11
-        location: EPFL, Switzerland
-        summary: Overall finalist at the EPFL hackathon
 
-      - name: First Prize, MERIThon 2025 AI Challenge
-        date: 2025-01
-        summary: First place in the AI competition track
-
-      - name: Academic Honors
-        date: 2024-06
-        location: UPC
-        summary: 4 courses with distinction
-
-      - name: UB-Santander Award
-        date: 2022-06
-        summary: Award for outstanding Baccalaureate Research project
 
     Skills:
       - label: Programming Languages
@@ -111,10 +92,4 @@ cv:
       - label: Catalan
         details: Professional proficiency (C1)
 
-    Interests:
-      - Representation Learning
-      - Multi-Modal LLMs
-      - Continual Learning
-      - Emergent Intelligence
-      - World Models
-      - Embodied AI
+
