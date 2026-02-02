@@ -20,8 +20,8 @@ cv:
         url: https://www.upc.edu/
         area: Artificial Intelligence
         studyType: Bachelor of Science
-        start_date: 2022-09
-        end_date: 2026-06
+        start_date: 2022-09-01
+        end_date: 2026-06-01
         score: "GPA: 8.9/10"
         highlights:
           - "4 courses with academic distinction"
@@ -31,8 +31,8 @@ cv:
         url: https://www.epfl.ch/
         area: Computer Science
         studyType: Exchange Semester (Master level)
-        start_date: 2025-09
-        end_date: 2026-02
+        start_date: 2025-09-01
+        end_date: 2026-02-01
         highlights:
           - "Exchange semester as part of BSc program"
 
@@ -40,8 +40,8 @@ cv:
       - company: LAMP - CVC - UAB
         position: Research Fellow
         location: Barcelona, Spain
-        start_date: 2026-02
-        end_date: Present
+        start_date: 2026-02-01
+        end_date: present
         summary: Unified Multi-Modal Continual Learning
         highlights:
           - Investigating catastrophic forgetting and cross-modal interference in Unified Multi-Modal LLMs.
@@ -50,8 +50,8 @@ cv:
       - company: IRI - UPC
         position: Undergraduate Researcher
         location: Barcelona, Spain
-        start_date: 2026-02
-        end_date: Present
+        start_date: 2026-02-01
+        end_date: present
         summary: Future Action Prediction in Video Models
         highlights:
           - Investigating modern state-space architectures (e.g., Mamba) for modeling long-range temporal dependencies in future action prediction from video.
@@ -59,8 +59,8 @@ cv:
       - company: BioRob - EPFL
         position: Visiting Research Student
         location: Lausanne, Switzerland
-        start_date: 2025-09
-        end_date: 2026-02
+        start_date: 2025-09-01
+        end_date: 2026-02-01
         summary: Context-Aware Spatial Action Recognition
         highlights:
           - Developed a context-aware interaction framework (based on SkateFormer) to resolve spatial user intent in multi-robot scenarios, outperforming geometric baselines by significant margins.
@@ -70,8 +70,8 @@ cv:
       - company: PayRetailers
         position: AI Engineer Intern
         location: Barcelona, Spain
-        start_date: 2025-06
-        end_date: 2025-08
+        start_date: 2025-06-01
+        end_date: 2025-08-31
         summary: Multi-Agent Systems and LLM Analysis
         highlights:
           - Developed and analyzed AI agents using advanced context engineering, studying how prompting strategies affect model behavior and output quality.
@@ -109,22 +109,22 @@ cv:
 
     Awards:
       - title: Overall Finalist, LauzHack 2025
-        date: 2025
+        date: 2025-11-01
         awarder: LauzHack
         summary: Overall finalist at the EPFL hackathon
 
       - title: First Prize, MERIThon 2025 AI Challenge
-        date: 2025
+        date: 2025-01-01
         awarder: MERIThon
         summary: First place in the AI competition track
 
       - title: Academic Honors
-        date: 2022-2026
+        date: 2024-06-01
         awarder: UPC
         summary: 4 courses with distinction
 
       - title: UB-Santander Award
-        date: 2022
+        date: 2022-06-01
         awarder: University of Barcelona & Santander
         summary: Award for outstanding Baccalaureate Research project
 

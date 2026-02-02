@@ -66,7 +66,7 @@
       "position": "AI Engineer Intern",
       "location": "Barcelona, Spain",
       "startDate": "2025-06-01",
-      "endDate": "2025-08-01",
+      "endDate": "2025-08-31",
       "summary": "Multi-Agent Systems and LLM Analysis",
       "highlights": [
         "Developed and analyzed AI agents using advanced context engineering, studying how prompting strategies affect model behavior and output quality.",
@@ -108,7 +108,7 @@
   "awards": [
     {
       "title": "Overall Finalist, LauzHack 2025",
-      "date": "2025-01-01",
+      "date": "2025-11-01",
       "awarder": "LauzHack",
       "summary": "Overall finalist at the EPFL hackathon"
     },
@@ -120,13 +120,13 @@
     },
     {
       "title": "Academic Honors",
-      "date": "2024-01-01",
+      "date": "2024-06-01",
       "awarder": "UPC",
       "summary": "4 courses with academic distinction"
     },
     {
       "title": "UB-Santander Award",
-      "date": "2022-01-01",
+      "date": "2022-06-01",
       "awarder": "University of Barcelona & Santander",
       "summary": "Award for outstanding Baccalaureate Research project"
     }
