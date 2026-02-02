@@ -1,18 +1,14 @@
 awards:
   - name: Overall Finalist, LauzHack 2025
-    date: 2025-11
     location: EPFL, Switzerland
-    summary: Overall finalist at the EPFL hackathon
+    summary: "**MXEgg**: Engineered a multi-agent football simulation where independent multi-modal LLMs utilize visual perception and role-based reasoning to exhibit emergent cooperative strategies."
 
   - name: First Prize, MERIThon 2025 AI Challenge
-    date: 2025-01
-    summary: First place in the AI competition track
+    summary: "**AIvidence**: Architected a hierarchical multi-agent framework to robustly detect deepfakes."
 
   - name: Academic Honors
-    date: 2024-06
     location: UPC
-    summary: 4 courses with distinction
+    summary: "4 courses with distinction: Algebra, Modeling and Simulation of Systems, Computer Vision, High Performance Computing."
 
   - name: UB-Santander Award
-    date: 2022-06
-    summary: Award for outstanding Baccalaureate Research project
+    summary: "Deployment of Foucault Pendulum at INS Pau Casals."

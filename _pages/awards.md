@@ -11,14 +11,13 @@ description: Honors and achievements
   <table class="table table-sm table-borderless">
     {% for award in site.data.awards.awards %}
     <tr>
-      <th scope="row" style="width: 20%">{{ award.date }}</th>
       <td>
         <strong>{{ award.name }}</strong>
-        {% if award.summary %}
-        <br>{{ award.summary }}
-        {% endif %}
         {% if award.location %}
         <br><em>{{ award.location }}</em>
+        {% endif %}
+        {% if award.summary %}
+        <br>{{ award.summary | markdownify | remove: '<p>' | remove: '</p>' }}
         {% endif %}
       </td>
     </tr>
