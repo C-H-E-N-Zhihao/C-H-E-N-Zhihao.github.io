@@ -4,11 +4,13 @@ awards:
     summary: "**MXEgg**: Engineered a multi-agent football simulation where independent multi-modal LLMs utilize visual perception and role-based reasoning to exhibit emergent cooperative strategies."
 
   - name: First Prize, MERIThon 2025 AI Challenge
+    location: UPC, Spain
     summary: "**AIvidence**: Architected a hierarchical multi-agent framework to robustly detect deepfakes."
 
   - name: Academic Honors
-    location: UPC
+    location: UPC, Spain
     summary: "4 courses with distinction: Algebra, Modeling and Simulation of Systems, Computer Vision, High Performance Computing."
 
   - name: UB-Santander Award
+    location: UB, Spain
     summary: "Award for outstanding Baccalaureate Research project: Deployment of Foucault Pendulum at INS Pau Casals."
