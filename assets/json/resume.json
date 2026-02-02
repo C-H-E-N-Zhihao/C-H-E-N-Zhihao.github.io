@@ -1,221 +1,216 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Zhihao Chen",
+    "label": "BSc Artificial Intelligence — Research Aspirant",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "zhihaoc04@gmail.com",
+    "phone": "+34 632 658 105",
+    "summary": "Final-year BSc student in Artificial Intelligence with hands-on research experience at EPFL BioRob and top AI labs. Research focuses on representation learning, multi-modal LLMs, and continual learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Barcelona",
+      "countryCode": "ES",
+      "region": "Catalonia"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "C-H-E-N-Zhihao",
+        "url": "https://github.com/C-H-E-N-Zhihao"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "zhihao-chen-584aa52b5",
+        "url": "https://linkedin.com/in/zhihao-chen-584aa52b5"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "LAMP - CVC - UAB",
+      "position": "Research Fellow",
+      "location": "Barcelona, Spain",
+      "startDate": "2026-02-01",
+      "endDate": "",
+      "summary": "Unified Multi-Modal Continual Learning",
+      "highlights": [
+        "Investigating catastrophic forgetting and cross-modal interference in Unified Multi-Modal LLMs.",
+        "Developing a comprehensive benchmark suite to evaluate model performance on sequential tasks."
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "IRI - UPC",
+      "position": "Undergraduate Researcher",
+      "location": "Barcelona, Spain",
+      "startDate": "2026-02-01",
+      "endDate": "",
+      "summary": "Future Action Prediction in Video Models",
+      "highlights": [
+        "Investigating modern state-space architectures (e.g., Mamba) for modeling long-range temporal dependencies in future action prediction from video."
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "BioRob - EPFL",
+      "position": "Visiting Research Student",
+      "location": "Lausanne, Switzerland",
+      "startDate": "2025-09-01",
+      "endDate": "2026-02-01",
+      "summary": "Context-Aware Spatial Action Recognition",
+      "highlights": [
+        "Developed a context-aware interaction framework (based on SkateFormer) to resolve spatial user intent in multi-robot scenarios, outperforming geometric baselines by significant margins.",
+        "Proposed an Implicitly Guided Geometric Fusion strategy that embeds robot coordinates into skeletal graphs, achieving robust generalization to unseen/occluded layouts.",
+        "Curated a 10k-sample dataset and deployed the end-to-end pipeline on a ROS2-based mobile swarm, achieving 25ms latency for real-time closed-loop control."
+      ]
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "PayRetailers",
+      "position": "AI Engineer Intern",
+      "location": "Barcelona, Spain",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-01",
+      "summary": "Multi-Agent Systems and LLM Analysis",
+      "highlights": [
+        "Developed and analyzed AI agents using advanced context engineering, studying how prompting strategies affect model behavior and output quality.",
+        "Designed complex multi-agent workflows through n8n, documenting emergent behaviors and interaction patterns in orchestrated systems.",
+        "Designed B2B products that automate and simplify the work of other departments, such as pricing calculators, RAG chatbots, conversation analyzers, report generators."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Polytechnic University of Catalonia (UPC)",
+      "location": "Barcelona, Spain",
+      "url": "https://www.upc.edu/",
+      "area": "Artificial Intelligence",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09-01",
+      "endDate": "2026-06-01",
+      "score": "GPA: 8.9/10",
+      "courses": [],
+      "highlights": [
+        "4 courses with academic distinction"
+      ]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "institution": "Federal Polytechnic School of Lausanne (EPFL)",
+      "location": "Lausanne, Switzerland",
+      "url": "https://www.epfl.ch/",
+      "area": "Computer Science",
+      "studyType": "Exchange Semester (Master level)",
+      "startDate": "2025-09-01",
+      "endDate": "2026-02-01",
       "score": "",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "Exchange semester as part of BSc program"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Overall Finalist, LauzHack 2025",
+      "date": "2025-01-01",
+      "awarder": "LauzHack",
+      "summary": "Overall finalist at the EPFL hackathon"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
+      "title": "First Prize, MERIThon 2025 AI Challenge",
+      "date": "2025-01-01",
+      "awarder": "MERIThon",
+      "summary": "First place in the AI competition track"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
+      "title": "Academic Honors",
+      "date": "2024-01-01",
+      "awarder": "UPC",
+      "summary": "4 courses with academic distinction"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "UB-Santander Award",
+      "date": "2022-01-01",
+      "awarder": "University of Barcelona & Santander",
+      "summary": "Award for outstanding Baccalaureate Research project"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C",
+        "SQL",
+        "MATLAB",
+        "R",
+        "C++",
+        "PDDL",
+        "Prolog"
+      ]
+    },
+    {
+      "name": "ML & Data",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-Learn",
+        "Hugging Face",
+        "LangChain",
+        "n8n",
+        "MLflow",
+        "WandB"
+      ]
+    },
+    {
+      "name": "Systems & Engineering",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-gear",
+      "keywords": [
+        "Jupyter",
+        "LaTeX",
+        "Git/GitHub",
+        "Docker",
+        "SLURM"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Chinese",
+      "fluency": "Native proficiency",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native proficiency",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional proficiency (C1)",
+      "icon": ""
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Professional proficiency (C1)",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
+      "icon": "fa-solid fa-flask",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Representation Learning",
+        "Multi-Modal LLMs",
+        "Continual Learning",
+        "Emergent Intelligence",
+        "World Models",
+        "Embodied AI"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
-    }
-  ]
+  "references": [],
+  "projects": []
 }
