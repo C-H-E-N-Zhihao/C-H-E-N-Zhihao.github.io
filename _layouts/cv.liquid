@@ -60,6 +60,7 @@ layout: default
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
+        {% comment %}
         <!-- Header/Contact Information -->
         {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
@@ -111,6 +112,7 @@ layout: default
             </table>
           </div>
         {% endif %}
+        {% endcomment %}
 
         <!-- Summary -->
         {% if cv.summary %}
