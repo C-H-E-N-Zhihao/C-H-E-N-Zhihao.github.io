@@ -1,14 +1,16 @@
 name: Prettier code formatter
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-  push:
-    branches:
-      - master
-      - main
+  # Disabled auto-run - run manually with workflow_dispatch if needed
+  # pull_request:
+  #   branches:
+  #     - master
+  #     - main
+  # push:
+  #   branches:
+  #     - master
+  #     - main
+  workflow_dispatch:
 
 jobs:
   check:
