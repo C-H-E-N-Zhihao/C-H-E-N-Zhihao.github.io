@@ -4,7 +4,6 @@ cv:
   email: zhihaoc04@gmail.com
   location: Barcelona, Spain
   phone: "+34 632 658 105"
-  image: ""
   summary: Final-year BSc student in Artificial Intelligence with hands-on research experience at EPFL BioRob and top AI labs. Research focuses on representation learning, multi-modal LLMs, and continual learning.
 
   social_networks:
@@ -20,10 +19,10 @@ cv:
         url: https://www.upc.edu/
         area: Artificial Intelligence
         studyType: Bachelor of Science
-        start_date: 2022-09-01
-        end_date: 2026-06-01
-        score: "GPA: 8.9/10"
+        start_date: 2022-09
+        end_date: 2026-06
         highlights:
+          - "GPA: 8.9/10"
           - "4 courses with academic distinction"
 
       - institution: Federal Polytechnic School of Lausanne (EPFL)
@@ -31,8 +30,8 @@ cv:
         url: https://www.epfl.ch/
         area: Computer Science
         studyType: Exchange Semester (Master level)
-        start_date: 2025-09-01
-        end_date: 2026-02-01
+        start_date: 2025-09
+        end_date: 2026-02
         highlights:
           - "Exchange semester as part of BSc program"
 
@@ -40,7 +39,7 @@ cv:
       - company: LAMP - CVC - UAB
         position: Research Fellow
         location: Barcelona, Spain
-        start_date: 2026-02-01
+        start_date: 2026-02
         end_date: present
         summary: Unified Multi-Modal Continual Learning
         highlights:
@@ -50,7 +49,7 @@ cv:
       - company: IRI - UPC
         position: Undergraduate Researcher
         location: Barcelona, Spain
-        start_date: 2026-02-01
+        start_date: 2026-02
         end_date: present
         summary: Future Action Prediction in Video Models
         highlights:
@@ -59,76 +58,71 @@ cv:
       - company: BioRob - EPFL
         position: Visiting Research Student
         location: Lausanne, Switzerland
-        start_date: 2025-09-01
-        end_date: 2026-02-01
+        start_date: 2025-09
+        end_date: 2026-02
         summary: Context-Aware Spatial Action Recognition
         highlights:
-          - Developed a context-aware interaction framework (based on SkateFormer) to resolve spatial user intent in multi-robot scenarios, outperforming geometric baselines by significant margins.
-          - Proposed an Implicitly Guided Geometric Fusion strategy that embeds robot coordinates into skeletal graphs, achieving robust generalization to unseen/occluded layouts.
-          - Curated a 10k-sample dataset and deployed the end-to-end pipeline on a ROS2-based mobile swarm, achieving 25ms latency for real-time closed-loop control.
+          - Developed a context-aware interaction framework (based on SkateFormer) to resolve spatial user intent in multi-robot scenarios.
+          - Proposed an Implicitly Guided Geometric Fusion strategy for robust generalization to unseen/occluded layouts.
+          - Curated a 10k-sample dataset and deployed the pipeline on a ROS2-based mobile swarm with 25ms latency.
 
       - company: PayRetailers
         position: AI Engineer Intern
         location: Barcelona, Spain
-        start_date: 2025-06-01
-        end_date: 2025-08-31
+        start_date: 2025-06
+        end_date: 2025-08
         summary: Multi-Agent Systems and LLM Analysis
         highlights:
-          - Developed and analyzed AI agents using advanced context engineering, studying how prompting strategies affect model behavior and output quality.
-          - Designed complex multi-agent workflows through n8n, documenting emergent behaviors and interaction patterns in orchestrated systems.
-          - Designed B2B products that automate and simplify the work of other departments, such as pricing calculators, RAG chatbots, conversation analyzers, report generators.
-
-    Skills:
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, C, SQL, MATLAB, R, C++, PDDL, Prolog"
-
-      - name: ML & Data
-        level: Advanced
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LangChain, n8n, MLflow, WandB"
-
-      - name: Systems & Engineering
-        level: Intermediate
-        icon: fa-solid fa-gear
-        keywords: "Jupyter, LaTeX, Git/GitHub, Docker, SLURM"
-
-    Languages:
-      - name: Chinese
-        summary: "Native proficiency"
-
-      - name: Spanish
-        summary: "Native proficiency"
-
-      - name: English
-        summary: "Professional proficiency (C1)"
-
-      - name: Catalan
-        summary: "Professional proficiency (C1)"
+          - Developed and analyzed AI agents using advanced context engineering.
+          - Designed complex multi-agent workflows through n8n, documenting emergent behaviors.
+          - Built B2B products including pricing calculators, RAG chatbots, and report generators.
 
     Awards:
-      - title: Overall Finalist, LauzHack 2025
-        date: 2025-11-01
-        awarder: LauzHack
+      - name: Overall Finalist, LauzHack 2025
+        date: 2025-11
+        location: EPFL, Switzerland
         summary: Overall finalist at the EPFL hackathon
 
-      - title: First Prize, MERIThon 2025 AI Challenge
-        date: 2025-01-01
-        awarder: MERIThon
+      - name: First Prize, MERIThon 2025 AI Challenge
+        date: 2025-01
         summary: First place in the AI competition track
 
-      - title: Academic Honors
-        date: 2024-06-01
-        awarder: UPC
+      - name: Academic Honors
+        date: 2024-06
+        location: UPC
         summary: 4 courses with distinction
 
-      - title: UB-Santander Award
-        date: 2022-06-01
-        awarder: University of Barcelona & Santander
+      - name: UB-Santander Award
+        date: 2022-06
         summary: Award for outstanding Baccalaureate Research project
 
+    Skills:
+      - label: Programming
+        details: Python, C, SQL, MATLAB, R, C++, PDDL, Prolog
+
+      - label: ML & Data
+        details: PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LangChain, n8n, MLflow, WandB
+
+      - label: Systems
+        details: Jupyter, LaTeX, Git/GitHub, Docker, SLURM
+
+    Languages:
+      - label: Chinese
+        details: Native proficiency
+
+      - label: Spanish
+        details: Native proficiency
+
+      - label: English
+        details: Professional proficiency (C1)
+
+      - label: Catalan
+        details: Professional proficiency (C1)
+
     Interests:
-      - name: Research Interests
-        icon: fa-solid fa-flask
-        keywords: "Representation Learning, Multi-Modal LLMs, Continual Learning, Emergent Intelligence, World Models, Embodied AI"
+      - Representation Learning
+      - Multi-Modal LLMs
+      - Continual Learning
+      - Emergent Intelligence
+      - World Models
+      - Embodied AI
