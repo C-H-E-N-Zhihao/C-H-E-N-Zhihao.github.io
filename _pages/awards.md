@@ -9,7 +9,7 @@ description: Honors and achievements
 
 <div class="table-responsive">
   <table class="table table-sm table-borderless">
-    {% for award in site.data.awards %}
+    {% for award in site.data.awards.awards %}
     <tr>
       <th scope="row" style="width: 20%">{{ award.date }}</th>
       <td>
