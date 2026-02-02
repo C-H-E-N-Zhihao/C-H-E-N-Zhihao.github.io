@@ -56,6 +56,12 @@ ninja.data = [{
           section: "News",},{id: "news-joined-biorob-lab-at-epfl-as-a-visiting-research-student-excited-to-work-on-context-aware-spatial-action-recognition-for-multi-robot-systems",
           title: 'Joined BioRob Lab at EPFL as a Visiting Research Student! 🎉 Excited to...',
           description: "",
+          section: "News",},{id: "news-overall-finalist-at-lauzhack-2025-epfl-s-student-run-hackathon",
+          title: '🏆 Overall Finalist at LauzHack 2025, EPFL’s student-run hackathon!',
+          description: "",
+          section: "News",},{id: "news-joined-iri-institut-de-robòtica-i-informàtica-industrial-as-an-undergraduate-researcher-working-on-future-action-prediction-in-video-models",
+          title: 'Joined IRI (Institut de Robòtica i Informàtica Industrial) as an Undergraduate Researcher, working...',
+          description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -71,7 +77,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%7A%68%69%68%61%6F%63%30%34@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%7A%68%69%68%61%6F.%63%68%65%6E@%65%73%74%75%64%69%61%6E%74%61%74.%75%70%63.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
