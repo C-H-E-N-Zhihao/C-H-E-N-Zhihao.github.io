@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📧 zhihaoc04@gmail.com</p>
+    <p>📧 zhihao.chen@estudiantat.upc.edu</p>
     <p>📍 Barcelona, Spain</p>
 
 selected_papers: false # no publications yet
@@ -29,5 +29,7 @@ latest_posts:
 Final-year BSc student in Artificial Intelligence with hands-on research experience at EPFL BioRob and top AI labs. My research focuses on the intersection of **representation learning**, **multi-modal LLMs**, and **continual learning**. 
 
 I am deeply interested in emergent intelligence and developing world models that unify perception, action, and imagination in dynamic environments. I aim to advance this field by building scalable, reproducible pipelines that bridge foundational theory with real-time embodied AI.
+
+**I am currently looking for a summer research program and plan to pursue Master studies in Fall 2026.**
 
 Currently, I'm a Research Fellow at [LAMP - CVC - UAB](https://www.cvc.uab.es/) investigating catastrophic forgetting in Unified Multi-Modal LLMs, and an Undergraduate Researcher at [IRI - UPC](https://www.iri.upc.edu/) working on future action prediction with state-space architectures.
