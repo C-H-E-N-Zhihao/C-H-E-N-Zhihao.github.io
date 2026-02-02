@@ -32,4 +32,4 @@ I am deeply interested in emergent intelligence and developing world models that
 
 **I am currently looking for a summer research program and plan to pursue Master studies in Fall 2026.**
 
-Currently, I'm a Research Fellow at [LAMP - CVC - UAB](https://www.cvc.uab.es/) investigating catastrophic forgetting in Unified Multi-Modal LLMs, and an Undergraduate Researcher at [IRI - UPC](https://www.iri.upc.edu/) working on future action prediction with state-space architectures.
+Currently, I'm an Undergraduate Researcher at [IRI - UPC](https://www.iri.upc.edu/) working on future action prediction with state-space architectures.

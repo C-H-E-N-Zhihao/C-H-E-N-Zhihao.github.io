@@ -36,15 +36,7 @@ cv:
           - "Exchange semester as part of BSc program"
 
     Experience:
-      - company: LAMP - CVC - UAB
-        position: Research Fellow
-        location: Barcelona, Spain
-        start_date: 2026-02
-        end_date: present
-        summary: Unified Multi-Modal Continual Learning
-        highlights:
-          - Investigating catastrophic forgetting and cross-modal interference in Unified Multi-Modal LLMs.
-          - Developing a comprehensive benchmark suite to evaluate model performance on sequential tasks.
+
 
       - company: IRI - UPC
         position: Undergraduate Researcher
@@ -97,14 +89,14 @@ cv:
         summary: Award for outstanding Baccalaureate Research project
 
     Skills:
-      - label: Programming
-        details: Python, C, SQL, MATLAB, R, C++, PDDL, Prolog
+      - label: Programming Languages
+        details: Python, C/C++, SQL, MATLAB, R, Prolog, PDDL
 
-      - label: ML & Data
-        details: PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LangChain, n8n, MLflow, WandB
+      - label: Frameworks & Libraries
+        details: PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LangChain, Lightning
 
-      - label: Systems
-        details: Jupyter, LaTeX, Git/GitHub, Docker, SLURM
+      - label: Tools & Platforms
+        details: Git, Docker, SLURM, WandB, MLflow, Linux/Bash, LaTeX
 
     Languages:
       - label: Chinese
