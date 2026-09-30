@@ -95,3 +95,4 @@ jobs:
           # Keep the analysis job green when this repository cannot upload
           # code-scanning results (the feature is not enabled for this repo).
           upload: never
+          upload-database: false
