@@ -119,7 +119,7 @@ cv:
         url: https://github.com/laiamp/B2Travel
         summary: "Built an LLM-grounded multimodal recommendation system that maps CLIP visual-semantic embeddings into a 3D topological space for spatial retrieval."
         highlights:
-          - "Second Prize, Skyscanner Challenge; Best Use of ElevenLabs."
+          - "Second Prize, Skyscanner Challenge; Best Use Award of ElevenLabs."
 
       - name: MXEgg - LauzHack 2025
         url: https://github.com/batikanor/mx-egg
@@ -141,9 +141,9 @@ cv:
 
       - name: Santander Excellence Scholarship
         location: Santander 360º
-        summary: University-wide excellence scholarship awarded for strong academic achievement.
+        summary: An award recognizing top academic performance as well as participation in cultural, social, and professional development activities.
 
-      - name: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs
+      - name: Second Prize, Skyscanner Challenge & Best Use Award of ElevenLabs
         location: HackUPC 2026
 
       - name: Overall Finalist, LauzHack 2025

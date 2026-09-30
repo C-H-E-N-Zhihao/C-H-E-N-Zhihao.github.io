@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc Data Science at <a href='https://www.epfl.ch/'>EPFL</a> · Graduate Student Researcher at <a href='https://vilab.epfl.ch/'>VILAB</a>
 
 profile:
   align: right
@@ -27,8 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/). I am interested in multimodal foundation models: how they learn shared representations across modalities, reason and generate in a unified way, and continue improving without forgetting what they already know.
+I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/).
 
-Previously, I completed my bachelor thesis as a Research Intern at [CVC-UAB](https://www.cvc.uab.es/), under the supervision of [Joost van de Weijer](https://www.cvc.uab.es/people/joost-van-de-weijer/). I am especially interested in research that makes multimodal systems more adaptable, reliable, and useful in open-ended real-world settings.
+I believe AI should move beyond language-only models toward systems that continuously integrate rich multimodal evidence to reason, refine their representations, and learn over time. My research interests lie in multimodal representation learning and foundation models: learning efficient, reusable representations that align and compose information across modalities, while making unified models more adaptable, reliable, and efficient in open-ended settings.
 
-I earned a BSc in Artificial Intelligence from the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/) and am currently looking for research intern opportunities starting in summer 2027.
+I earned a BSc in Artificial Intelligence from the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/) and completed my bachelor thesis as a Research Intern at [CVC-UAB](https://www.cvc.uab.es/), under the supervision of [Joost van de Weijer](https://www.cvc.uab.es/people/joost-van-de-weijer/).
+
+I am currently looking for research intern opportunities starting in summer 2027.
