@@ -58,7 +58,7 @@ ninja.data = [{
           section: "News",},{id: "news-won-second-prize-in-the-skyscanner-challenge-and-the-best-use-award-of-elevenlabs-at-hackupc-2026",
           title: 'Won Second Prize in the Skyscanner Challenge and the Best Use Award of...',
           description: "",
-          section: "News",},{id: "news-received-the-santander-excellence-scholarship-an-award-recognizing-top-academic-performance-as-well-as-participation-in-cultural-social-and-professional-development-activities",
+          section: "News",},{id: "news-received-the-santander-excellence-scholarship-an-award-recognizing-top-academic-performance-as-well-as-participation-in-cultural-social-and-professional-development-activities-only-77-recipients-selected-nationwide-across-all-fields",
           title: 'Received the Santander Excellence Scholarship, an award recognizing top academic performance as well...',
           description: "",
           section: "News",},{id: "news-defended-my-bachelor-thesis-and-graduated-with-a-bsc-in-artificial-intelligence-from-upc",
