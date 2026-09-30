@@ -9,6 +9,7 @@ on:
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
+      - "requirements.txt"
   workflow_call:
   workflow_dispatch:
 permissions:
@@ -27,23 +28,29 @@ jobs:
           pip install -r requirements.txt
       - name: RenderCV
         run: |
-          cv_file=$(find _data  -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
+          cv_file=$(find _data -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \) -print -quit)
           if [ -z "$cv_file" ]; then
             echo "No cv.yml file found!"
             exit 1
           fi
-          rendercv_dir=$(find assets -maxdepth 1 -type d -name "rendercv")
+          rendercv_dir=$(find assets -maxdepth 1 -type d -name "rendercv" -print -quit)
           if [ -z "$rendercv_dir" ]; then
             echo "No RenderCV config directory found!"
             exit 1
           fi
-          settings=$(find $rendercv_dir -maxdepth 1 -type f \( -name "settings.yaml" -o -name "settings.yml" \))
+          design="$rendercv_dir/design.yaml"
+          locale="$rendercv_dir/locale.yaml"
+          settings=$(find "$rendercv_dir" -maxdepth 1 -type f \( -name "settings.yaml" -o -name "settings.yml" \) -print -quit)
           if [ -z "$settings" ]; then
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
-          rm assets/rendercv/rendercv_output/*.typ
+          if [ ! -f "$design" ] || [ ! -f "$locale" ]; then
+            echo "Missing RenderCV design or locale configuration."
+            exit 1
+          fi
+          rendercv render "$cv_file" --settings "$settings" --design "$design" --locale-catalog "$locale"
+          rm -f "$rendercv_dir"/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -51,8 +58,12 @@ jobs:
           path: assets/rendercv/rendercv_output
       - name: Push the changes
         run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -A
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add assets/rendercv/rendercv_output/
+          if git diff --cached --quiet; then
+            echo "The generated CV is unchanged; nothing to commit."
+            exit 0
+          fi
           git commit -m "chore: render the latest CV"
-          git push
+          git push origin "${GITHUB_REF_NAME}"

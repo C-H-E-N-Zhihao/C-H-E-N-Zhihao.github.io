@@ -5,3 +5,7 @@ design:
     size: a4
     show_footer: false
     show_top_note: false
+  entries:
+    degree_width: 2cm
+  templates:
+    date_range: "START_DATE - END_DATE"

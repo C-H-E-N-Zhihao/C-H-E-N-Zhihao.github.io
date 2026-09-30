@@ -1,8 +1,8 @@
 cv:
   name: Zhihao Chen
-  label: MSc Data Science Student and AI Researcher
+  headline: MSc Data Science Student and AI Researcher
   email: zhihaoc04@gmail.com
-  phone: +34 632 658 105
+  phone: "+34 632 658 105"
 
   social_networks:
     - network: GitHub
@@ -16,7 +16,7 @@ cv:
         location: Lausanne, Switzerland
         url: https://www.epfl.ch/
         area: Data Science
-        studyType: Master of Science
+        degree: MSc
         start_date: 2026-09
         end_date: present
 
@@ -24,7 +24,7 @@ cv:
         location: Barcelona, Spain
         url: https://www.upc.edu/
         area: Artificial Intelligence
-        studyType: Bachelor of Science
+        degree: BSc
         start_date: 2022-09
         end_date: 2026-06
         highlights:
@@ -34,7 +34,7 @@ cv:
         location: Lausanne, Switzerland
         url: https://www.epfl.ch/
         area: Computer Science
-        studyType: Exchange Semester
+        degree: Exchange
         start_date: 2025-09
         end_date: 2026-02
         highlights:
@@ -55,7 +55,7 @@ cv:
         location: Lausanne, Switzerland
         start_date: 2026-09
         end_date: present
-        summary: EE-556 Mathematics of Data: From Theory to Computation
+        summary: "EE-556 Mathematics of Data: From Theory to Computation"
 
       - company: LAMP - CVC - UAB
         position: Undergraduate Student Researcher
@@ -100,9 +100,15 @@ cv:
 
     Publications:
       - title: "Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models"
-        publisher: NeurIPS 2026 Workshop on CL4FMAgents
-        date: "2026"
-        summary: "Xinrui Wang, **Zhihao Chen**, Jia Tang, Alexandra Gomez-Villa, Bartłomiej Twardowski, Joost van de Weijer, and Songcan Chen."
+        authors:
+          - Xinrui Wang
+          - "**Zhihao Chen**"
+          - Jia Tang
+          - Alexandra Gomez-Villa
+          - Bartłomiej Twardowski
+          - Joost van de Weijer
+          - Songcan Chen
+        journal: NeurIPS 2026 Workshop on CL4FMAgents
 
     Projects:
       - name: B2Travel - HackUPC 2026
@@ -118,23 +124,18 @@ cv:
         summary: "First Prize. Built a retrieval-grounded multi-agent framework that distributes chain-of-thought reasoning across specialized LLMs for deepfake detection."
 
     Awards:
-      - title: Elena Maseras Research Scholarship 2026
-        awarder: Research scholarship
+      - name: Elena Maseras Research Scholarship 2026
         summary: Awarded for academic excellence (13% acceptance rate).
 
-      - title: Excellence Scholarship
-        awarder: Santander 360º
+      - name: Excellence Scholarship, Santander 360º
 
-      - title: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs
-        awarder: HackUPC 2026
+      - name: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs, HackUPC 2026
 
-      - title: Overall Finalist
-        awarder: LauzHack 2025
+      - name: Overall Finalist, LauzHack 2025
 
-      - title: First Prize, MERIThon 2025 AI Challenge
-        awarder: MERIThon
+      - name: First Prize, MERIThon 2025 AI Challenge
 
-      - title: Academic Honors
+      - name: Academic Honors
         summary: Four courses with distinction.
 
     Skills:
