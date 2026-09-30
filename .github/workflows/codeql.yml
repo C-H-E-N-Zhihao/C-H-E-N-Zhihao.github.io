@@ -95,3 +95,6 @@ jobs:
         uses: github/codeql-action/analyze@v3
         with:
           category: "/language:${{matrix.language}}"
+          # Keep the analysis job green when this repository cannot upload
+          # code-scanning results (the feature is not enabled for this repo).
+          upload: never
