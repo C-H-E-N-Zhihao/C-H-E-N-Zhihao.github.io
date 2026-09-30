@@ -49,6 +49,9 @@ ninja.data = [{
           section: "News",},{id: "news-joined-iri-institut-de-robòtica-i-informàtica-industrial-as-an-undergraduate-researcher-working-on-future-action-prediction-in-video-models",
           title: 'Joined IRI (Institut de Robòtica i Informàtica Industrial) as an Undergraduate Researcher, working...',
           description: "",
+          section: "News",},{id: "news-started-the-msc-in-data-science-at-epfl-and-joined-vilab-as-a-graduate-student-researcher-working-on-continuous-generative-modeling-for-unified-multimodal-systems",
+          title: 'Started the MSc in Data Science at EPFL and joined VILAB as a...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
