@@ -42,6 +42,7 @@ cv:
 
     Experience:
       - company: VILAB - EPFL
+        company_url: https://vilab.epfl.ch/
         position: Graduate Student Researcher
         location: Lausanne, Switzerland
         start_date: 2026-09
@@ -58,6 +59,7 @@ cv:
         summary: "EE-556 Mathematics of Data: From Theory to Computation"
 
       - company: LAMP - CVC - UAB
+        company_url: https://lamp.cvc.uab.es/
         position: Undergraduate Student Researcher
         location: Barcelona, Spain
         start_date: 2026-02
@@ -69,6 +71,7 @@ cv:
           - Awarded the Elena Maseras Research Scholarship 2026 for academic excellence (13% acceptance rate).
 
       - company: IRI - UPC
+        company_url: https://www.iri.upc.edu/index.php
         position: Undergraduate Student Researcher
         location: Barcelona, Spain
         start_date: 2026-02
@@ -79,6 +82,7 @@ cv:
           - Achieved competitive generative coherence with one function evaluation (NFE=1), reducing computation by 10x-25x for latency-critical applications.
 
       - company: BioRob - EPFL
+        company_url: https://www.epfl.ch/labs/biorob/
         position: Visiting Student Researcher
         location: Lausanne, Switzerland
         start_date: 2025-09
@@ -113,29 +117,44 @@ cv:
     Projects:
       - name: B2Travel - HackUPC 2026
         url: https://github.com/laiamp/B2Travel
-        summary: "Second Prize, Skyscanner Challenge; Best Use of ElevenLabs. Built an LLM-grounded multimodal recommendation system that maps CLIP visual-semantic embeddings into a 3D topological space for spatial retrieval."
+        summary: "Built an LLM-grounded multimodal recommendation system that maps CLIP visual-semantic embeddings into a 3D topological space for spatial retrieval."
+        highlights:
+          - "Second Prize, Skyscanner Challenge; Best Use of ElevenLabs."
 
       - name: MXEgg - LauzHack 2025
         url: https://github.com/batikanor/mx-egg
-        summary: "Overall finalist. Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behavior."
+        summary: "Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behavior."
+        highlights:
+          - "Overall finalist, LauzHack 2025."
 
       - name: AIvidence - MERIThon 2025 AI Challenge
         url: https://github.com/ChenghengLi/AIvidence
-        summary: "First Prize. Built a retrieval-grounded multi-agent framework that distributes chain-of-thought reasoning across specialized LLMs for deepfake detection."
+        summary: "Built a retrieval-grounded multi-agent framework that distributes chain-of-thought reasoning across specialized LLMs for deepfake detection."
+        highlights:
+          - "First Prize, MERIThon 2025 AI Challenge."
 
     Awards:
       - name: Elena Maseras Research Scholarship 2026
-        summary: Awarded for academic excellence (13% acceptance rate).
+        location: LAMP - CVC - UAB
+        url: https://lamp.cvc.uab.es/
+        summary: "Awarded by [LAMP, CVC-UAB](https://lamp.cvc.uab.es/) for academic excellence (13% acceptance rate)."
 
-      - name: Excellence Scholarship, Santander 360º
+      - name: Excellence Scholarship
+        location: Santander 360º
 
-      - name: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs, HackUPC 2026
+      - name: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs
+        location: HackUPC 2026
 
       - name: Overall Finalist, LauzHack 2025
+        location: EPFL, Switzerland
+        summary: "MXEgg: Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behavior."
 
       - name: First Prize, MERIThon 2025 AI Challenge
+        location: UPC, Spain
+        summary: "AIvidence: Built a retrieval-grounded multi-agent framework for deepfake detection."
 
       - name: Academic Honors
+        location: UPC, Spain
         summary: Four courses with distinction.
 
     Skills:

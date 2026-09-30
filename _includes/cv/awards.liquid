@@ -3,7 +3,7 @@
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for entry in entries %}
+  {% for entry in include.entries %}
     <li class="list-group-item">
       <div class="row">
         {% capture start_date %}
@@ -35,6 +35,8 @@
 
             {% if entry.awarder %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% elsif entry.location %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.location }}</h6>
             {% endif %}
 
             {% if entry.summary %}
@@ -53,6 +55,8 @@
 
             {% if entry.awarder %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% elsif entry.location %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.location }}</h6>
             {% endif %}
 
             {% if entry.summary %}

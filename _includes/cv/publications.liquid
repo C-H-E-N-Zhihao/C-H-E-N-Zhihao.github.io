@@ -3,7 +3,7 @@
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for entry in entries %}
+  {% for entry in include.entries %}
     <li class="list-group-item">
       <div class="row">
         {% capture pub_date %}

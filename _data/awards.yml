@@ -1,6 +1,7 @@
 awards:
   - name: Elena Maseras Research Scholarship 2026
     location: LAMP - CVC - UAB
+    url: https://lamp.cvc.uab.es/
     summary: Awarded for academic excellence (13% acceptance rate).
 
   - name: Excellence Scholarship
@@ -11,11 +12,11 @@ awards:
 
   - name: Overall Finalist, LauzHack 2025
     location: EPFL, Switzerland
-    summary: "**MXEgg**: Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behaviors."
+    summary: "[MXEgg](https://github.com/batikanor/mx-egg): Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behavior."
 
   - name: First Prize, MERIThon 2025 AI Challenge
     location: UPC, Spain
-    summary: "**AIvidence**: Built a retrieval-grounded multi-agent framework for deepfake detection."
+    summary: "[AIvidence](https://github.com/ChenghengLi/AIvidence): Built a retrieval-grounded multi-agent framework for deepfake detection."
 
   - name: Academic Honors
     location: UPC, Spain
