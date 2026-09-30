@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/). I study continuous generative modeling for unified multimodal systems, with a focus on flow-based decoders that connect different sensory modalities.
+I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/). I am interested in multimodal foundation models: how they learn shared representations across modalities, reason and generate in a unified way, and continue improving without forgetting what they already know.
 
-My broader interests are multimodal representation learning and continual learning. Before joining VILAB, I studied cross-modal forgetting in unified models at [LAMP, CVC-UAB](https://lamp.cvc.uab.es/), future-action prediction at [IRI (CSIC-UPC)](https://www.iri.upc.edu/index.php), and context-aware action recognition for robotic systems at [BioRob, EPFL](https://www.epfl.ch/labs/biorob/).
+Previously, I completed my bachelor thesis as a Research Intern at [CVC-UAB](https://www.cvc.uab.es/), under the supervision of [Joost van de Weijer](https://www.cvc.uab.es/people/joost-van-de-weijer/). I am especially interested in research that makes multimodal systems more adaptable, reliable, and useful in open-ended real-world settings.
 
-I earned a BSc in Artificial Intelligence from the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/), including an exchange semester at EPFL. I also serve as a teaching assistant for EE-556 Mathematics of Data: From Theory to Computation.
+I earned a BSc in Artificial Intelligence from the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/) and am currently looking for research intern opportunities starting in summer 2027.

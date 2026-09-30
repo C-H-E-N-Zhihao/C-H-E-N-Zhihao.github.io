@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [**IRI (Institut de Robòtica i Informàtica Industrial)**](https://www.iri.upc.edu/index.php) as an Undergraduate Researcher, working on future-action prediction in video models. I also began research with [**LAMP at CVC-UAB**](https://lamp.cvc.uab.es/) on continual learning in unified multimodal models.
+Joined [**IRI (Institut de Robòtica i Informàtica Industrial)**](https://www.iri.upc.edu/index.php) as an Undergraduate Researcher, working on future-action prediction in video models.

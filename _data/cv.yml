@@ -139,19 +139,18 @@ cv:
         url: https://lamp.cvc.uab.es/
         summary: "Awarded by [LAMP, CVC-UAB](https://lamp.cvc.uab.es/) for academic excellence (13% acceptance rate)."
 
-      - name: Excellence Scholarship
+      - name: Santander Excellence Scholarship
         location: Santander 360º
+        summary: University-wide excellence scholarship awarded for strong academic achievement.
 
       - name: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs
         location: HackUPC 2026
 
       - name: Overall Finalist, LauzHack 2025
         location: EPFL, Switzerland
-        summary: "MXEgg: Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behavior."
 
       - name: First Prize, MERIThon 2025 AI Challenge
         location: UPC, Spain
-        summary: "AIvidence: Built a retrieval-grounded multi-agent framework for deepfake detection."
 
       - name: Academic Honors
         location: UPC, Spain
