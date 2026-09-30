@@ -1,17 +1,25 @@
 cv:
   name: Zhihao Chen
-  label: BSc Artificial Intelligence — Research Aspirant
-  email: zhihao.chen@estudiantat.upc.edu
-
+  label: MSc Data Science Student and AI Researcher
+  email: zhihaoc04@gmail.com
+  phone: +34 632 658 105
 
   social_networks:
     - network: GitHub
       username: C-H-E-N-Zhihao
     - network: LinkedIn
-      username: zhihao-chen-584aa52b5
+      username: chen-zhihao
 
   sections:
     Education:
+      - institution: Federal Institute of Technology Lausanne (EPFL)
+        location: Lausanne, Switzerland
+        url: https://www.epfl.ch/
+        area: Data Science
+        studyType: Master of Science
+        start_date: 2026-09
+        end_date: present
+
       - institution: Polytechnic University of Catalonia (UPC)
         location: Barcelona, Spain
         url: https://www.upc.edu/
@@ -20,41 +28,65 @@ cv:
         start_date: 2022-09
         end_date: 2026-06
         highlights:
-          - "GPA: 8.9/10"
+          - "GPA: 9.00/10.0 (Top 10%)"
 
-
-      - institution: Federal Polytechnic School of Lausanne (EPFL)
+      - institution: Federal Institute of Technology Lausanne (EPFL)
         location: Lausanne, Switzerland
         url: https://www.epfl.ch/
         area: Computer Science
-        studyType: Exchange Semester (Master level)
+        studyType: Exchange Semester
         start_date: 2025-09
         end_date: 2026-02
         highlights:
-          - "Exchange semester as part of BSc program"
+          - "GPA: 5.93/6.0"
 
     Experience:
+      - company: VILAB - EPFL
+        position: Graduate Student Researcher
+        location: Lausanne, Switzerland
+        start_date: 2026-09
+        end_date: present
+        summary: Continuous Generative Modeling for Unified Any-to-Any Multimodal Systems
+        highlights:
+          - Extending unified any-to-any multimodal architectures via continuous generative processes and flow-based decoders across heterogeneous sensory modalities.
 
+      - company: EPFL
+        position: Student Teaching Assistant
+        location: Lausanne, Switzerland
+        start_date: 2026-09
+        end_date: present
+        summary: EE-556 Mathematics of Data: From Theory to Computation
 
-      - company: IRI - UPC
-        position: Undergraduate Researcher
+      - company: LAMP - CVC - UAB
+        position: Undergraduate Student Researcher
         location: Barcelona, Spain
         start_date: 2026-02
-        end_date: present
+        end_date: 2026-09
+        summary: Unified Multi-Modal Continual Learning
+        highlights:
+          - Formulated a sequential benchmark to measure cross-modal catastrophic forgetting between visual reasoning and image synthesis in unified multimodal generative models.
+          - Found that decoupled architectures mitigate bidirectional representation degradation compared with monolithic architectures.
+          - Awarded the Elena Maseras Research Scholarship 2026 for academic excellence (13% acceptance rate).
+
+      - company: IRI - UPC
+        position: Undergraduate Student Researcher
+        location: Barcelona, Spain
+        start_date: 2026-02
+        end_date: 2026-09
         summary: Future Action Prediction in Video Models
         highlights:
-          - Investigating modern state-space architectures (e.g., Mamba) for modeling long-range temporal dependencies in future action prediction from video.
+          - Developed WarmFlow, an encoder-initialized flow-matching framework that replaces pure-noise diffusion with dynamic structural priors for action segmentation.
+          - Achieved competitive generative coherence with one function evaluation (NFE=1), reducing computation by 10x-25x for latency-critical applications.
 
       - company: BioRob - EPFL
-        position: Visiting Research Student
+        position: Visiting Student Researcher
         location: Lausanne, Switzerland
         start_date: 2025-09
         end_date: 2026-02
         summary: Context-Aware Spatial Action Recognition
         highlights:
-          - Developed a context-aware interaction framework (based on SkateFormer) to resolve spatial user intent in multi-robot scenarios.
-          - Proposed an Implicitly Guided Geometric Fusion strategy for robust generalization to unseen/occluded layouts.
-          - Curated a 10k-sample dataset and deployed the pipeline on a ROS2-based mobile swarm with 25ms latency.
+          - Extended the SkateFormer architecture for multimodal spatial action recognition, using geometric priors to generalize to occluded layouts.
+          - Curated a 10k-sample dataset and deployed the framework on a ROS2 mobile swarm, achieving a 20% accuracy gain over baselines and 25ms latency for closed-loop control.
 
       - company: PayRetailers
         position: AI Engineer Intern
@@ -63,21 +95,57 @@ cv:
         end_date: 2025-08
         summary: Multi-Agent Systems and LLM Analysis
         highlights:
-          - Developed and analyzed AI agents using advanced context engineering.
-          - Designed complex multi-agent workflows through n8n, documenting emergent behaviors.
-          - Built B2B products including pricing calculators, RAG chatbots, and report generators.
+          - Evaluated prompting strategies, including chain-of-thought and few-shot prompting, and connected LLMs to external tools through multi-agent workflows.
+          - Built internal B2B AI solutions, including retrieval-augmented generation systems and automated analytical pipelines.
 
+    Publications:
+      - title: "Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models"
+        publisher: NeurIPS 2026 Workshop on CL4FMAgents
+        date: "2026"
+        summary: "Xinrui Wang, **Zhihao Chen**, Jia Tang, Alexandra Gomez-Villa, Bartłomiej Twardowski, Joost van de Weijer, and Songcan Chen."
 
+    Projects:
+      - name: B2Travel - HackUPC 2026
+        url: https://github.com/laiamp/B2Travel
+        summary: "Second Prize, Skyscanner Challenge; Best Use of ElevenLabs. Built an LLM-grounded multimodal recommendation system that maps CLIP visual-semantic embeddings into a 3D topological space for spatial retrieval."
+
+      - name: MXEgg - LauzHack 2025
+        url: https://github.com/batikanor/mx-egg
+        summary: "Overall finalist. Built an LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behavior."
+
+      - name: AIvidence - MERIThon 2025 AI Challenge
+        url: https://github.com/ChenghengLi/AIvidence
+        summary: "First Prize. Built a retrieval-grounded multi-agent framework that distributes chain-of-thought reasoning across specialized LLMs for deepfake detection."
+
+    Awards:
+      - title: Elena Maseras Research Scholarship 2026
+        awarder: Research scholarship
+        summary: Awarded for academic excellence (13% acceptance rate).
+
+      - title: Excellence Scholarship
+        awarder: Santander 360º
+
+      - title: Second Prize, Skyscanner Challenge and Best Use of ElevenLabs
+        awarder: HackUPC 2026
+
+      - title: Overall Finalist
+        awarder: LauzHack 2025
+
+      - title: First Prize, MERIThon 2025 AI Challenge
+        awarder: MERIThon
+
+      - title: Academic Honors
+        summary: Four courses with distinction.
 
     Skills:
-      - label: Programming Languages
-        details: Python, C/C++, SQL, MATLAB, R, Prolog, PDDL
+      - label: Programming
+        details: Python, C, C++, MATLAB, SQL, R
 
-      - label: Frameworks & Libraries
-        details: PyTorch, TensorFlow, Scikit-Learn, Hugging Face, LangChain, Lightning
+      - label: Machine Learning and Data
+        details: PyTorch, Scikit-learn, Hugging Face, OpenCV, LangChain, Weights & Biases, DDP/FSDP
 
-      - label: Tools & Platforms
-        details: Git, Docker, SLURM, WandB, MLflow, Linux/Bash, LaTeX
+      - label: Systems and Engineering
+        details: Jupyter, LaTeX, Git/GitHub, Docker, SLURM
 
     Languages:
       - label: Chinese
@@ -86,10 +154,11 @@ cv:
       - label: Spanish
         details: Native proficiency
 
+      - label: Catalan
+        details: Native proficiency
+
       - label: English
         details: Professional proficiency (C1)
 
-      - label: Catalan
-        details: Professional proficiency (C1)
-
-
+      - label: French
+        details: Elementary proficiency (A2)

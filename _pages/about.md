@@ -2,17 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: BSc Artificial Intelligence at <a href='https://www.upc.edu/'>UPC</a> · Research Aspirant
+subtitle: MSc Data Science at <a href='https://www.epfl.ch/'>EPFL</a> · Graduate Student Researcher at VILAB
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📧 zhihao.chen@estudiantat.upc.edu</p>
-    <p>📍 Barcelona, Spain</p>
+    <p>📧 <a href='mailto:zhihaoc04@gmail.com'>zhihaoc04@gmail.com</a></p>
+    <p>☎️ +34 632 658 105</p>
+    <p>📍 Lausanne, Switzerland</p>
 
-selected_papers: false # no publications yet
+selected_papers: true
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,10 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Final-year BSc student in Artificial Intelligence with hands-on research experience at EPFL BioRob and top AI labs. My research focuses on the intersection of **representation learning**, **multi-modal LLMs**, and **continual learning**. 
+I am a first-year MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at VILAB. My current research explores continuous generative modeling for unified any-to-any multimodal systems, including flow-based decoders across heterogeneous sensory modalities.
 
-I am deeply interested in emergent intelligence and developing world models that unify perception, action, and imagination in dynamic environments. I aim to advance this field by building scalable, reproducible pipelines that bridge foundational theory with real-time embodied AI.
+My research interests include **representation learning**, **multimodal foundation models**, and **continual learning**. Previously, I studied cross-modal forgetting in unified multimodal models, developed a one-step flow-matching approach for future action prediction, and worked on context-aware spatial action recognition for robotic systems.
 
-**I am currently looking for a summer research program and plan to pursue Master studies in Fall 2026.**
-
-Currently, I'm an Undergraduate Researcher at [IRI - UPC](https://www.iri.upc.edu/) working on future action prediction with state-space architectures.
+I completed a BSc in Artificial Intelligence at the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/) and an exchange semester at EPFL. I also serve as a teaching assistant for EE-556 Mathematics of Data: From Theory to Computation.
