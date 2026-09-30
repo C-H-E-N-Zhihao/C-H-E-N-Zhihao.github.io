@@ -1,8 +1,7 @@
 cv:
   name: Zhihao Chen
   headline: MSc Data Science Student and AI Researcher
-  email: zhihaoc04@gmail.com
-  phone: "+34 632 658 105"
+  email: zhihao.chen@epfl.ch
 
   social_networks:
     - network: GitHub
@@ -141,10 +140,11 @@ cv:
 
       - name: Santander Excellence Scholarship
         location: Santander 360º
-        summary: An award recognizing top academic performance as well as participation in cultural, social, and professional development activities.
+        summary: An award recognizing top academic performance as well as participation in cultural, social, and professional development activities (only 77 recipients selected across all Spanish universities and academic fields).
 
       - name: Second Prize, Skyscanner Challenge & Best Use Award of ElevenLabs
         location: HackUPC 2026
+        url: https://hackupc.com
 
       - name: Overall Finalist, LauzHack 2025
         location: EPFL, Switzerland

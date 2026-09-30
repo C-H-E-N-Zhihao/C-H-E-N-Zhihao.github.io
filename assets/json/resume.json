@@ -3,9 +3,9 @@
     "name": "Zhihao Chen",
     "label": "MSc Data Science Student and AI Researcher",
     "image": "",
-    "email": "zhihaoc04@gmail.com",
-    "phone": "+34 632 658 105",
-    "summary": "First-year MSc student in Data Science at EPFL and Graduate Student Researcher at VILAB. Research interests include representation learning, multimodal foundation models, and continual learning.",
+    "email": "zhihao.chen@epfl.ch",
+    "phone": "",
+    "summary": "First-year MSc student in Data Science at EPFL and Graduate Student Researcher at VILAB. Research interests include representation learning and multimodal foundation models.",
     "location": {
       "city": "Lausanne",
       "countryCode": "CH",
@@ -164,8 +164,9 @@
       "summary": "Awarded for academic excellence (13% acceptance rate)."
     },
     {
-      "title": "Excellence Scholarship",
-      "awarder": "Santander 360º"
+      "title": "Santander Excellence Scholarship",
+      "awarder": "Santander 360º",
+      "summary": "An award recognizing top academic performance as well as participation in cultural, social, and professional development activities (only 77 recipients selected across all Spanish universities and academic fields)."
     },
     {
       "title": "Second Prize, Skyscanner Challenge and Best Use of ElevenLabs",
