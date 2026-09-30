@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc Data Science at <a href='https://www.epfl.ch/'>EPFL</a> · Graduate Student Researcher at VILAB
+subtitle: MSc Data Science at <a href='https://www.epfl.ch/'>EPFL</a> · Graduate Student Researcher at <a href='https://vilab.epfl.ch/'>VILAB</a>
 
 profile:
   align: right
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at VILAB. My current research explores continuous generative modeling for unified any-to-any multimodal systems, including flow-based decoders across heterogeneous sensory modalities.
+I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/). I study continuous generative modeling for unified multimodal systems, with a focus on flow-based decoders that connect different sensory modalities.
 
-My research interests include **representation learning**, **multimodal foundation models**, and **continual learning**. Previously, I studied cross-modal forgetting in unified multimodal models, developed a one-step flow-matching approach for future action prediction, and worked on context-aware spatial action recognition for robotic systems.
+My broader interests are multimodal representation learning and continual learning. Before joining VILAB, I studied cross-modal forgetting in unified models at [LAMP, CVC-UAB](https://lamp.cvc.uab.es/), future-action prediction at [IRI (CSIC-UPC)](https://www.iri.upc.edu/index.php), and context-aware action recognition for robotic systems at [BioRob, EPFL](https://www.epfl.ch/labs/biorob/).
 
-I completed a BSc in Artificial Intelligence at the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/) and an exchange semester at EPFL. I also serve as a teaching assistant for EE-556 Mathematics of Data: From Theory to Computation.
+I earned a BSc in Artificial Intelligence from the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/), including an exchange semester at EPFL. I also serve as a teaching assistant for EE-556 Mathematics of Data: From Theory to Computation.
