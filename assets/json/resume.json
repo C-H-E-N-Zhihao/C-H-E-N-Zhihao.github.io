@@ -21,6 +21,11 @@
         "network": "LinkedIn",
         "username": "chen-zhihao",
         "url": "https://linkedin.com/in/chen-zhihao"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "LwutznAAAAAJ",
+        "url": "https://scholar.google.com/citations?user=LwutznAAAAAJ&hl=es"
       }
     ]
   },
@@ -39,8 +44,9 @@
     {
       "name": "EPFL",
       "position": "Student Teaching Assistant",
+      "url": "https://edu.epfl.ch/coursebook/en/mathematics-of-data-from-theory-to-computation-EE-556",
       "location": "Lausanne, Switzerland",
-      "startDate": "2026-09-01",
+      "startDate": "2026-09-07",
       "endDate": "",
       "summary": "EE-556 Mathematics of Data: From Theory to Computation"
     },
@@ -139,6 +145,7 @@
       "name": "Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models",
       "publisher": "NeurIPS 2026 Workshop on CL4FMAgents",
       "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2610.38436",
       "summary": "Xinrui Wang, Zhihao Chen, Jia Tang, Alexandra Gomez-Villa, Bartłomiej Twardowski, Joost van de Weijer, and Songcan Chen."
     }
   ],

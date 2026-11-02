@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, [“Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models”]({{ '/publications/' | relative_url }}), was accepted to the NeurIPS 2026 Workshop on CL4FMAgents. The work studies how unified multimodal models retain and forget capabilities across visual reasoning and image synthesis.
+Our paper, [“Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models”](https://arxiv.org/abs/2610.38436), was accepted to the NeurIPS 2026 Workshop on CL4FMAgents. The preprint is available on [arXiv:2610.38436](https://arxiv.org/abs/2610.38436).

@@ -8,6 +8,8 @@ cv:
       username: C-H-E-N-Zhihao
     - network: LinkedIn
       username: chen-zhihao
+    - network: Google Scholar
+      username: LwutznAAAAAJ
 
   sections:
     Education:
@@ -51,11 +53,13 @@ cv:
           - Extending unified any-to-any multimodal architectures via continuous generative processes and flow-based decoders across heterogeneous sensory modalities.
 
       - company: EPFL
+        company_url: https://www.epfl.ch/
         position: Student Teaching Assistant
+        url: https://edu.epfl.ch/coursebook/en/mathematics-of-data-from-theory-to-computation-EE-556
         location: Lausanne, Switzerland
-        start_date: 2026-09
+        start_date: 2026-09-07
         end_date: present
-        summary: "EE-556 Mathematics of Data: From Theory to Computation"
+        summary: "[EE-556 Mathematics of Data: From Theory to Computation](https://edu.epfl.ch/coursebook/en/mathematics-of-data-from-theory-to-computation-EE-556)"
 
       - company: LAMP - CVC - UAB
         company_url: https://lamp.cvc.uab.es/
@@ -103,6 +107,7 @@ cv:
 
     Publications:
       - title: "Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models"
+        url: https://arxiv.org/abs/2610.38436
         authors:
           - Xinrui Wang
           - "**Zhihao Chen**"

@@ -9,6 +9,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>📧 <a href='mailto:zhihao.chen@epfl.ch'>zhihao.chen@epfl.ch</a></p>
+    <p>🎓 <a href='https://scholar.google.com/citations?user=LwutznAAAAAJ&hl=es' target='_blank'>Google Scholar</a></p>
     <p>📍 Lausanne, Switzerland</p>
 
 selected_papers: true
