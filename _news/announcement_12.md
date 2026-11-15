@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won **Second Prize** in the Skyscanner Challenge and the **Best Use Award of ElevenLabs** at [HackUPC 2026](https://hackupc.com).
+**2nd Prize** in the Skyscanner Challenge and **Best Use of ElevenLabs** at [HackUPC 2026](https://hackupc.com) with [B2Travel](https://github.com/laiamp/B2Travel).

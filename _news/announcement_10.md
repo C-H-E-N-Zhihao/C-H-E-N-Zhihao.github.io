@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Defended my bachelor thesis and graduated with a BSc in Artificial Intelligence from [UPC](https://www.upc.edu/).
+Graduated with a BSc in Artificial Intelligence from [UPC](https://www.upc.edu/) (GPA 9.00/10, top 10%).

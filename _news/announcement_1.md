@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [**BioRob Lab at EPFL**](https://www.epfl.ch/labs/biorob/) as a Visiting Research Student, working on context-aware spatial action recognition for multi-robot systems.
+Started an exchange semester in Computer Science at [EPFL](https://www.epfl.ch/) and joined [**BioRob**](https://www.epfl.ch/labs/biorob/) (Prof. Auke Jan IJspeert) to work on context-aware spatial action recognition.

@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: artificial-intelligence, machine-learning, deep-learning, research, EPFL, UPC, multimodal-foundation-models, representation-learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://c-h-e-n-zhihao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -31,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -53,8 +53,8 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-search_enabled: true
+footer_fixed: false
+search_enabled: false
 socials_in_search: false
 posts_in_search: false
 bib_search: false
@@ -69,9 +69,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://c-h-e-n-zhihao.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -92,8 +92,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Zhihao Chen # blog_name will be displayed in your blog page
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -122,7 +122,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources - DISABLED
@@ -184,6 +184,16 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - cv/
+  - AGENTS.md
+  - ANALYTICS.md
+  - CLAUDE.md
+  - QUICKSTART.md
+  - SEO.md
+  - TROUBLESHOOTING.md
+  - requirements.txt
+  - .github/
+  - .gemini/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -304,10 +314,10 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -336,12 +346,14 @@ filtered_bibtex_keywords:
     selected,
     slides,
     supp,
+    teaser,
+    teaser_caption,
     video,
     website,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

@@ -1,16 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
+subtitle: MSc Data Science student at <a href="https://www.epfl.ch/">EPFL</a> · Graduate Student Researcher at <a href="https://vilab.epfl.ch/">VILAB</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>📧 <a href='mailto:zhihao.chen@epfl.ch'>zhihao.chen@epfl.ch</a></p>
-    <p>🎓 <a href='https://scholar.google.com/citations?user=LwutznAAAAAJ&hl=es' target='_blank'>Google Scholar</a></p>
-    <p>📍 Lausanne, Switzerland</p>
+    <p>Lausanne, Switzerland</p>
+    <p><a href="mailto:zhihao.chen@epfl.ch">zhihao.chen@epfl.ch</a></p>
 
 selected_papers: true
 social: true # includes social icons at the bottom of the page
@@ -26,10 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/). My research centers on **multimodal foundation models** and **representation learning**. While LLMs are powerful, modeling vision purely through language-centric approaches feels counter-intuitive. I believe multimodal intelligence requires efficient representations that genuinely leverage rich perceptual signals. I am interested in how foundation models can learn shared representations across modalities to reason and generate in a unified way, making them more adaptable, reliable, and useful in open-ended real-world settings.
+I am an MSc student in Data Science at [EPFL](https://www.epfl.ch/) and a Graduate Student Researcher at [VILAB](https://vilab.epfl.ch/), advised by [Prof. Amir Zamir](https://vilab.epfl.ch/zamir/). I work on **multimodal representation learning**: how models can learn disentangled, generalizable representations across modalities, so that features can be reused zero-shot and new cross-modal capabilities emerge.
 
-I earned a BSc in Artificial Intelligence from the [Polytechnic University of Catalonia (UPC)](https://www.upc.edu/). Previously, I completed my bachelor thesis as a Research Intern at [CVC-UAB](https://www.cvc.uab.es/), under the supervision of [Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en).
+My view is that vision should not be treated as an add-on to language. Multimodal intelligence needs representations that take rich perceptual signals seriously, and I am interested in foundation models that share such representations to understand and generate in a unified way.
 
-Outside of research, I enjoy working out, hiking, and drawing ;).
+Before EPFL, I earned a BSc in Artificial Intelligence from [UPC](https://www.upc.edu/) in Barcelona. There I studied cross-modal catastrophic forgetting in unified multimodal models with [Dr. Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en) at [LAMP, CVC-UAB](https://lamp.cvc.uab.es/), worked on flow matching for action segmentation and anticipation with [Dr. Mariella Dimiccoli](https://www.iri.upc.edu/) at IRI-UPC, and on context-aware action recognition with [Prof. Auke Jan IJspeert](https://www.epfl.ch/labs/biorob/) at BioRob, EPFL.
 
-**I am currently looking for research intern opportunities starting in Summer 2027.** Feel free to reach out if you’d like to chat!
+Outside of research, I enjoy working out, hiking, and drawing.
+
+**I am looking for research internships starting in Summer 2027**, in multimodal representation learning and generative modeling. Feel free to [reach out](mailto:zhihao.chen@epfl.ch).

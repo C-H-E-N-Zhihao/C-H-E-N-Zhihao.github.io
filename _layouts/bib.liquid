@@ -62,6 +62,10 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- comment -%} Keep name particles such as "van de" (BibTeX "von" part, exposed as `prefix`). {%- endcomment -%}
+        {%- if author.prefix and author.prefix != '' -%}
+          {%- assign author_last_html = author.prefix | append: ' ' | append: author_last_html -%}
+        {%- endif -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -393,3 +397,20 @@
     {% endif %}
   </div>
 </div>
+{% if entry.teaser %}
+  <!-- Full-width teaser figure (for wide figures that don't fit the thumbnail column) -->
+  <figure class="pub-teaser">
+    {% assign teaser_path = entry.teaser | prepend: '/assets/img/publication_preview/' %}
+    {%
+      include figure.liquid
+      path=teaser_path
+      class="img-fluid"
+      sizes="(min-width: 930px) 900px, 95vw"
+      zoomable=true
+      alt=entry.teaser_caption
+    %}
+    {% if entry.teaser_caption %}
+      <figcaption>{{ entry.teaser_caption }}</figcaption>
+    {% endif %}
+  </figure>
+{% endif %}

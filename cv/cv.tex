@@ -1,0 +1,188 @@
+%%%%
+% Zhihao Chen's CV - Single-Line Header & Separated Sections (1-Page)
+% Public web version: the phone number is omitted from the header.
+% Pushing changes to this file rebuilds assets/pdf/Zhihao_Chen_CV.pdf
+% (see .github/workflows/compile-cv.yml).
+%%%%
+
+\documentclass[a4paper,10pt]{article}
+
+% Balanced 1-Page Margins
+\usepackage[left=1.35cm,right=1.35cm,top=1.15cm,bottom=1.15cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+% ==============================
+% Color & Link Setup
+% ==============================
+\definecolor{epflred}{RGB}{228, 17, 46}
+\definecolor{darkred}{RGB}{150, 0, 0}
+\definecolor{darkblue}{RGB}{0, 0, 139}
+\definecolor{darkgray}{RGB}{45, 45, 45}
+\definecolor{lightgray}{RGB}{115, 115, 115}
+
+\usepackage[hidelinks, colorlinks=true, linkcolor=darkblue, urlcolor=darkblue]{hyperref}
+
+% Professional Font: Palatino
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+
+% Comfortable Line Spacing
+\linespread{1.01}
+\pagestyle{empty}
+
+% Section Formatting
+\titleformat{\section}{
+  \scshape\raggedright\normalsize\bfseries\color{epflred}
+}{}{0em}{}[\color{epflred}\titlerule]
+\titlespacing*{\section}{0pt}{6.5pt}{3.5pt}
+
+% ==============================
+% Clean Macros (Single-Line Header)
+% ==============================
+% Args: name, email, GitHub user, LinkedIn user
+\newcommand{\cvheader}[4]{%
+  \noindent
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    {\huge\bfseries\color{darkred} #1} &
+    {\footnotesize\color{darkgray}
+      \textbf{Email:} \href{mailto:#2}{#2} \ $|$ \
+      \textbf{GitHub:} \href{https://github.com/#3}{#3} \ $|$ \
+      \textbf{LinkedIn:} \href{https://linkedin.com/in/#4}{#4}}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\newcommand{\cvsubheading}[4]{%
+  \vspace{2.5pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textbf{\color{darkred}#1} & {\footnotesize\textbf{\color{darkgray}#2}} \\
+    \textit{\footnotesize\color{darkgray}#3} & \textit{\footnotesize\color{lightgray}#4} \\
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\newcommand{\cvsubdegree}[2]{%
+  \vspace{1.5pt}
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+    \textit{\footnotesize\color{darkgray}#1} & \textit{\footnotesize\color{lightgray}#2} \\
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\newcommand{\cvitem}[1]{%
+  \item[\color{epflred}\footnotesize$\triangleright$] {\small #1}
+}
+
+\setlist[itemize]{left=12pt, itemsep=1.5pt, parsep=0pt, topsep=2.5pt}
+\setlength{\parindent}{0pt}
+
+%===================%
+% BEGIN DOCUMENT
+%===================%
+
+\begin{document}
+\color{darkgray}
+
+% Single-Line Header
+\cvheader{Zhihao Chen}{zhihao.chen@epfl.ch}{C-H-E-N-Zhihao}{chen-zhihao}
+
+% Education
+\section{Education}
+
+\cvsubheading
+{École Polytechnique Fédérale de Lausanne (EPFL)}{Lausanne, Switzerland}
+{\textbf{Master of Science in Data Science}}{Sep 2026 -- Present (Expected Jun 2028)}
+
+\cvsubdegree
+{\textbf{Exchange Semester, Computer Science} $|$ \textbf{GPA: 5.93/6.0}}{Sep 2025 -- Feb 2026}
+
+\cvsubheading
+{Universitat Politècnica de Catalunya (UPC)}{Barcelona, Spain}
+{\textbf{Bachelor of Science in Artificial Intelligence} $|$ \textbf{GPA: 9.00/10.0 (Top 10\%)}}{Sep 2022 -- Jun 2026}
+\begin{itemize}
+    \cvitem{\textbf{Awards:} 4$\times$ Course Distinctions, ``Elena Maseras'' Research Fellowship, Santander 360\textordmasculine{} Excellence Scholarship.}
+\end{itemize}
+
+% Publications Section
+\section{Publications}
+
+\begin{itemize}
+    \cvitem{\textbf{Continual Adaptation Across Modalities: Learning and Forgetting in Unified Multimodal Models}\\
+    Xinrui Wang, \textbf{Zhihao Chen}, Jia Tang, Alexandra Gomez-Villa, Bart\l{}omiej Twardowski, Joost van de Weijer, Songcan Chen.\\
+    \textit{NeurIPS 2026 Workshop on CL4FMAgents}, 2026.} \href{https://arxiv.org/abs/2610.38436}{[arXiv]}
+\end{itemize}
+
+% Research Experience (Topic-First, Clean Layout)
+\section{Research Experience}
+
+\cvsubheading
+{Disentangled Multimodal Representation Learning}{Lausanne, Switzerland}
+{\textbf{VILAB -- EPFL} $|$ Advisor: Prof. Amir Zamir}{Sep 2026 -- Present}
+\begin{itemize}
+    \cvitem{Exploring disentangled and generalized representations across multimodal data via continuous flow and latent-variable models to enable zero-shot feature reuse and emergent cross-modal capabilities.}
+\end{itemize}
+
+\cvsubheading
+{Unified Multimodal Continual Learning}{Barcelona, Spain}
+{\textbf{LAMP -- CVC -- UAB} $|$ Advisor: Dr. Joost van de Weijer}{Feb 2026 -- Sep 2026}
+\begin{itemize}
+    \cvitem{Formulated a sequential benchmarking framework to quantify \textbf{cross-modal catastrophic forgetting} between visual understanding and image generation across unified models (\textbf{Chameleon, Janus-Pro, BAGEL}) using PEFT: \textbf{LoRA, SoftPrompt}.}
+    \cvitem{Demonstrated empirically that \textbf{decoupled} vision-language architectures intrinsically mitigate bidirectional representation degradation compared to early-fusion \textbf{monolithic} models.}
+\end{itemize}
+
+\cvsubheading
+{WarmFlow: Flow Matching for Action Segmentation and Anticipation}{Barcelona, Spain}
+{\textbf{IRI -- UPC} $|$ Advisor: Dr. Mariella Dimiccoli}{Feb 2026 -- Jul 2026}
+\begin{itemize}
+    \cvitem{Designed a \textbf{dual-conditioning Flow Matching} architecture that fuses encoder features with Gaussian noise at initialization while conditioning the decoder, enabling 1-step denoising for temporal action prediction.}
+\end{itemize}
+
+\cvsubheading
+{Context-Aware Spatial Action Recognition}{Lausanne, Switzerland}
+{\textbf{BioRob -- EPFL} $|$ Advisor: Prof. Auke Jan IJspeert}{Sep 2025 -- Feb 2026}
+\begin{itemize}
+    \cvitem{Modified the \href{https://arxiv.org/abs/2403.09508}{\textbf{SkateFormer}} backbone to fuse 3D object coordinates directly with skeletal features, enabling end-to-end target prediction for directional actions without two-stage heuristic post-processing.}
+\end{itemize}
+
+% Professional Experience (Separated)
+\section{Professional Experience}
+
+\cvsubheading
+{PayRetailers}{Barcelona, Spain}
+{\textbf{AI Engineer Intern}}{Jun 2025 -- Aug 2025}
+\begin{itemize}
+    \cvitem{Built internal B2B multi-agent LLM workflows (\textbf{n8n}) mitigating hallucinations via Prompt and Context Engineering, integrating external tools via \textbf{MCP}.}
+\end{itemize}
+
+% Teaching Experience (Separated)
+\section{Teaching Experience}
+
+\cvsubheading
+{EE-556 Mathematics of Data: From Theory to Computation}{Lausanne, Switzerland}
+{\textbf{Student Teaching Assistant -- EPFL} $|$ Advisor: Prof. Volkan Cevher}{Sep 2026 -- Present}
+
+% Selected Projects
+\section{Selected Projects}
+
+\begin{itemize}
+    \cvitem{\textbf{\href{https://github.com/laiamp/B2Travel}{B2Travel} -- HackUPC 2026} (\textit{2nd Prize Skyscanner \& Best ElevenLabs}): Multimodal recommendation system using \textbf{CLIP} and manifold learning to project visual-semantic embeddings into 3D space.}
+    \cvitem{\textbf{\href{https://github.com/batikanor/mx-egg}{MXEgg} -- LauzHack 2025} (\textit{Overall Finalist}): LLM-driven multi-agent simulation with a custom physics engine and localized vision to study emergent cooperative behaviors.}
+    \cvitem{\textbf{\href{https://github.com/ChenghengLi/AIvidence}{AIvidence} -- MERIThon 2025} (\textit{1st Prize}): Multi-agent framework distributing CoT reasoning and RAG across specialized LLMs for automated deepfake detection.}
+\end{itemize}
+
+% Technical Skills & Languages
+\section{Technical Skills \& Languages}
+\vspace{1pt}
+{\small
+\begin{tabular}{@{}l@{\hspace{14pt}}l@{}}
+\textbf{\color{darkred}Programming:} & Python, C++, C, MATLAB, SQL, R \\[2pt]
+\textbf{\color{darkred}ML \& Frameworks:} & PyTorch, Scikit-learn, Hugging Face, PEFT, DDP/FSDP, WandB, OpenCV, LangChain \\[2pt]
+\textbf{\color{darkred}Systems \& HPC:} & SLURM, ROS2, Docker, Git/GitHub, \LaTeX \\[2pt]
+\textbf{\color{darkred}Languages:} & English (C1), Chinese (Native), Spanish (Native), Catalan (Native), French (A2)
+\end{tabular}
+}
+
+\end{document}

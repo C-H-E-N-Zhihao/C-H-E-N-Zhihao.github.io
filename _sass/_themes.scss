@@ -8,10 +8,10 @@
   color-scheme: light;
   --global-bg-color: #{v.$white-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
+  --global-text-color: #222222;
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-theme-color: #960000; // matches the CV's dark red
+  --global-hover-color: #960000;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -80,8 +80,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-theme-color: #e8817b; // lighter red for contrast on dark background
+  --global-hover-color: #e8817b;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};

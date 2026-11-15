@@ -218,3 +218,59 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*****************************
+ * PDF-based CV page
+ *****************************/
+
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 4px;
+  color: var(--global-theme-color) !important;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color) !important;
+  }
+}
+
+.cv-open {
+  color: var(--global-text-color-light) !important;
+  font-size: 0.9rem;
+}
+
+.cv-embed {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+
+  iframe {
+    display: block;
+    width: 100%;
+    // A4 aspect ratio, so the single page fits without inner scrolling
+    aspect-ratio: 210 / 297;
+    border: 0;
+  }
+}
+
+// Mobile browsers render embedded PDFs poorly; the download button is enough there.
+@media (max-width: 576px) {
+  .cv-embed {
+    display: none;
+  }
+}

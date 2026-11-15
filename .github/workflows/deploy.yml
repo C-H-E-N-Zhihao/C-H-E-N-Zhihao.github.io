@@ -10,6 +10,7 @@ on:
       - "_sass/**"
       - "_scripts/**"
       - "**.bib"
+      - "cv/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -39,6 +40,7 @@ on:
       - "_sass/**"
       - "_scripts/**"
       - "**.bib"
+      - "cv/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -88,6 +90,14 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Setup Tectonic 📄
+        uses: wtfjoke/setup-tectonic@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Compile CV from LaTeX 📄
+        run: |
+          tectonic -o "$RUNNER_TEMP" cv/cv.tex
+          cp "$RUNNER_TEMP/cv.pdf" assets/pdf/Zhihao_Chen_CV.pdf
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
